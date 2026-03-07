@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BananaBreadnWeed</title>
+  </head>
+  <body>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+      <h1>BananaBreadnWeed</h1>
+      <p>A young South African gamer with genuine taste, two YouTube channels, and a lot to say about games.</p>
+    </section>
+
+    <!-- GAMES SECTION -->
+    <section id="games">
+      <h2>Game Reviews</h2>
+    </section>
+
+    <!-- CHANNELS SECTION -->
+    <section id="channels">
+      <h2>The Channels</h2>
+    </section>
+
+    <!-- SUBSCRIBE SECTION -->
+    <section id="subscribe">
+      <h2>Subscribe</h2>
+      <p>You're already reading this.</p>
+    </section>
+
+  </body>
+</html>
