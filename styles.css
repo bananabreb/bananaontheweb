@@ -70,6 +70,7 @@ nav a {
     margin-bottom: 15px;
     border-left: 4px solid #FFAB00;
     border-radius: 16px;
+    overflow: hidden;
   }
 
 .game-thumbnail {
@@ -77,7 +78,6 @@ nav a {
   height: 180px;
   object-fit: cover;
   object-position: top;
-  border-radius: 12px 12px 0 0;
   margin-bottom: 15px;
   display: block;
   transition: object-position 0.8s ease;
