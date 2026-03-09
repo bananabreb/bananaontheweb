@@ -76,9 +76,15 @@ nav a {
   width: 100%;
   height: 180px;
   object-fit: cover;
+  object-position: top;
   border-radius: 12px 12px 0 0;
   margin-bottom: 15px;
   display: block;
+  transition: object-position 0.8s ease;
+}
+
+.game-thumbnail:hover {
+  object-position: bottom;
 }
 
   a {
