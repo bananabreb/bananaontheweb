@@ -73,6 +73,8 @@ nav a {
     overflow: hidden;
   }
 
+  <!--this is breaking shit now-->
+  
 .game-thumbnail {
   width: calc(100% + 40px);
   height: 180px;
