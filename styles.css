@@ -12,7 +12,6 @@
     margin: 0 auto;
     padding: 40px 20px;
   }
-
   nav {
   position: sticky;
   top: 0;
@@ -73,8 +72,6 @@ nav a {
     overflow: hidden;
   }
 
-  <!--this is breaking shit now-->
-  
 .game-thumbnail {
   width: calc(100% + 40px);
   height: 180px;
