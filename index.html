@@ -3,6 +3,9 @@
   <head>
     <!--The CSS root of everything, most of the visual elements are to be edited here-->
     <style>
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
   * {
     margin: 0;
     padding: 0;
@@ -45,6 +48,17 @@
     margin-bottom: 8px;
   }
 
+  .card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-left: 4px solid #222;
+  }
+
+  .card h3 {
+    margin-bottom: 8px;
+  }
+
   a {
     display: inline-block;
     margin-top: 12px;
@@ -59,6 +73,30 @@
     background-color: #444;
   }
 
+  nav {
+  position: sticky;
+  top: 0;
+  background-color: #222;
+  padding: 15px 20px;
+  margin-bottom: 40px;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 0.9rem;
+  background: none;
+  padding: 0;
+}
+
+nav a:hover {
+  color: #aaa;
+  background: none;
+}
+
 </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -66,11 +104,22 @@
   </head>
   <body>
 
+
     <!-- ABOUT SECTION -->
     <section id="about">
       <h1>BananaBread</h1>
       <p>A shy guy with loud thoughts, not to be underestimated or you will be underwhelmed.</p>
     </section>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#games">Reviews</a>
+  <a href="#taste">The Critic</a>
+  <a href="#human">The Human</a>
+  <a href="#channels">Channels</a>
+  <a href="#subscribe">Subscribe</a>
+</nav>
+
 
     <!-- GAMES SECTION -->
     <section id="games">
@@ -152,6 +201,18 @@
     <h3>Second Channel — @bananbreb</h3>
     <p>Literally my playground. Expect unhinged rhetoric.</p>
     <a href="https://www.youtube.com/@bananbreb" target="_blank">Watch on YouTube</a>
+  </div>
+
+</section>
+
+<section id="human">
+  <h2>The Human Behind the Channel</h2>
+
+  <div class="card">
+    <p>A man with a plan to increase the range of content consumed in South Africa, competing on a global scale to funnel the views and recognition home.</p>
+    <p>With two channels to appease your content desires, undiscriminatory of your ADHD or cranial degredation.</p>
+    <p>There is a message to be percieved from the content, do not be fooled by the unhinged nature of these videos, what lacks in quality, is most likely on purpose.</p>
+    <p>You will catch up eventually, just be open-minded.</p>
   </div>
 
 </section>
