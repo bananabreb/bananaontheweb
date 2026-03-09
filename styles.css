@@ -74,11 +74,11 @@ nav a {
   }
 
 .game-thumbnail {
-  width: 100%;
+  width: calc(100% + 40px);
   height: 180px;
   object-fit: cover;
   object-position: top;
-  margin-bottom: 15px;
+  margin: -20px -20px 15px -20px;
   display: block;
   transition: object-position 0.8s ease;
 }
